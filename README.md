@@ -12,3 +12,5 @@ java Unzipper.java lwjgl-glfw-3.2.2-natives-windows.jar <samba-shared-folder-pat
 ```
 
 The samba shared folder path should be a folder shared through samba, which can be a UNC path or mounted as a drive.
+
+This bug seems to be related to the directory depth, please select a folder at least two levels deep for the target path (e.g. `X:\Share\Test`)
